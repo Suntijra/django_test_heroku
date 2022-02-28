@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" 
         content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Document{% endblock %}}</title>
+    <title>{% block title %}Document{% endblock %}</title>
     {% block style %} {% endblock %}
     {%block script %} {%endblock%}
 </head>
 <body>
+    <h1>Django Framework</h1>
     {% block body%}
     {% endblock %}
+    <a href={% url 'index'%}>go to index </a>
+    <br>
+    <a href={% url 'test'%}>go to test </a>
 </body>
 </html>

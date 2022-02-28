@@ -1,0 +1,14 @@
+{%extends 'main.html'%}
+{%load static%}
+
+{% block style %}
+<link rel="stylesheet" href="{%static 'css/table.css' %}">
+{%endblock%}
+{%block body%}
+    <h3>test of static css file</h3>
+    <table>
+        <tr><td>model</td><td>{% lorem 5 w%}</td></tr>
+        <tr><td>model</td><td>{% lorem 10 w%}</td></tr>
+        <tr><td>model</td><td>{% lorem 15 w%}</td></tr>
+    </table>
+{%endblock%}

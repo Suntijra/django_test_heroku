@@ -1,0 +1,16 @@
+{%extends 'main.html'%}
+{%load static%}
+{%block title%}
+static js
+{%endblock%}
+{%block script%}
+<script src="{% static 'js/browser-detect.js' %}"></script>
+{%endblock%}
+
+{%block body%}
+<p id = 'plus'>result :</p>
+<script>
+    document.getElementById('plus').append(plus(3,3))
+    
+</script>
+{%endblock%}

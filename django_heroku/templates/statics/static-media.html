@@ -1,0 +1,17 @@
+{%extends 'main.html'%}
+{% load static %}
+{% block style %}
+    <style>
+        img{
+            margin: 50px;
+            width: 80px;
+        }
+    </style>
+{%endblock%}
+{%block body%}
+    <h3>รูปภาพ</h3>
+    <img src="{% static './img/django.png' %}" alt="">
+    <img src="{% static './img/django.png' %}" alt="">
+    <img src="{% static './img/python.png' %}" alt="">
+
+{% endblock %}
