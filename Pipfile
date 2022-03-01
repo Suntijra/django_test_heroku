@@ -7,6 +7,8 @@ name = "pypi"
 django = "*"
 numpy = "*"
 matplotlib = "*"
+gunicorn = "*"
+django-heroku = "*"
 
 [dev-packages]
 
