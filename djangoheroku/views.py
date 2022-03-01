@@ -1,7 +1,7 @@
 from  django.http import HttpResponse
 from django.shortcuts import render
 from pathlib import Path
-from django_heroku import settings
+from djangoheroku import settings
 def form(request):
     return HttpResponse(f'{Path(__file__).resolve().parent.parent}')
 def index(request):
