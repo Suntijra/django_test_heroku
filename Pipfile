@@ -7,7 +7,7 @@ name = "pypi"
 django = "*"
 numpy = "*"
 matplotlib = "*"
-gunicorn = "*"
+gunicorn = "==20.0.4"
 django-heroku = "*"
 
 [dev-packages]
