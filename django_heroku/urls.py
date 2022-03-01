@@ -22,7 +22,7 @@ urlpatterns = [
     path('form',views.form),
     path('',views.index,name='index'),
     path('testpage',views.test,name = 'test'),
-    path('index2',views.testInclude,name = 'test_include'),
+    path('index',views.testInclude,name = 'test_include'),
     path('static-media',views.static_media,name = 'static_media'),
     path('static-css',views.static_css),
     path('static-js',views.static_js)
